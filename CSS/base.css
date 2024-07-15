@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #04D9B3;
 }
 .main {
     display: flex;
@@ -20,19 +20,58 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #0476D9;
     padding: 10px 20px 0px;
 }
 .header {   
-    background-color: rgb(5, 108, 108);
+    background-color: #EBBC52; 
     min-height: 150px;
+    text-align: center;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+.content2 {
+   text-align: center;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color:#5B606B;
     min-height: 150px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+.button{
+
+    background-color: #413C33;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-align: center;
+    border: none; 
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    /*outline: #0476D9; (pesquisar)*/
+
+}
+
+.button:hover {background-color: #454952}
+
+.button:active {
+    background-color: #4B4966;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+img {
+    max-width: 35%;
+    height: auto;
+    margin-bottom: 15px;
+    align-content: center;
+
 }
